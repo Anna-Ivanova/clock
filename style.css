@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+.clock {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+
+}
+
+.clock_item {
+    border: 1px solid black;
+    flex: 0 0 10%;
+    height: 150px;
+}
+
+.colon {
+    border: 1px solid black;
+    flex: 0 0 10%;
+    height: 150px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
